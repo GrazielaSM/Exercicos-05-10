@@ -1,14 +1,13 @@
 # Exercicos-05-10
+/*Tendo como dados de entrada o nome, a altura e o sexo (M ou F) de uma pessoa, calcule e mostre seu peso ideal, utilizando as seguintes fórmulas:
+- para sexo masculino: peso ideal = (72.7 * altura) - 58
+- para sexo feminino: peso ideal = (62.1 * altura) - 44.7*/
 
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
-/*Tendo como dados de entrada o nome, a altura e o sexo (M ou F) de uma pessoa, calcule e mostre seu peso ideal, utilizando as seguintes fórmulas:
-- para sexo masculino: peso ideal = (72.7 * altura) - 58
-- para sexo feminino: peso ideal = (62.1 * altura) - 44.7*/
 
 namespace Peso_Ideal
 {
@@ -51,6 +50,9 @@ namespace Peso_Ideal
 
 
 
+/*Ler o salário fixo e o valor das vendas efetuadas pelo vendedor de uma empresa. 
+Sabendose que ele recebe uma comissão de 3% sobre o total das vendas até R$1.500,00 mais 5%
+sobre o que ultrapassar este valor, calcular e escrever o seu salário total.*/
 
 
 using System;
@@ -59,9 +61,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-/*Ler o salário fixo e o valor das vendas efetuadas pelo vendedor de uma empresa. 
-Sabendose que ele recebe uma comissão de 3% sobre o total das vendas até R$1.500,00 mais 5%
-sobre o que ultrapassar este valor, calcular e escrever o seu salário total.*/
 
 namespace Salario_Total
 {
@@ -92,6 +91,7 @@ namespace Salario_Total
     }
 }
 
+/*Ler 3 valores (considere que não serão informados valores iguais)e escrever o maior deles.*/
 
 
 using System;
@@ -99,8 +99,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
-/*Ler 3 valores (considere que não serão informados valores iguais)e escrever o maior deles.*/
 
 namespace Maior_Valor
 {
@@ -156,15 +154,16 @@ namespace Maior_Valor
     }
 }
 
+/*Ler 3 valores (A, B e C) representando as medidas dos lados de um triângulo e escrever se
+formam ou não um triângulo. OBS: para formar um triângulo, o valor de cada lado deve ser
+menor que a soma dos outros 2 lados.*/
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-/*Ler 3 valores (A, B e C) representando as medidas dos lados de um triângulo e escrever se
-formam ou não um triângulo. OBS: para formar um triângulo, o valor de cada lado deve ser
-menor que a soma dos outros 2 lados.*/
 
 namespace Lados__triangulos
 {
@@ -210,6 +209,7 @@ namespace Lados__triangulos
 
 - o maior preço lido
 - a média aritmética dos preços dos produtos*/
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -257,11 +257,6 @@ namespace Maior_preço
 }
 
 ###################################################################################
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 /*A prefeitura de uma cidade deseja fazer uma pesquisa entre seus habitantes. Faça um
 algoritmos para coletar dados sobre o salário e número de filhos de 4 habitantes e após as
@@ -271,6 +266,13 @@ a) Média de salário da população
 b) Média do número de filhos
 c) Maior salário dos habitantes
 d) Percentual de pessoas com salário menor que R$ 150,00*/
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
 namespace Media_salario
 {
     class Program
